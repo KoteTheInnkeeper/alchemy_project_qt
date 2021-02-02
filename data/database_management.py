@@ -6,7 +6,7 @@ import logging
 
 from data.database_connection import DatabaseConnection as DatabaseConnect
 from data.database_connection import sqlite3
-from page.ingredients_and_effects import EffectsPage
+from page.ingredients_and_effects import EffectsPage, IngredientsPage
 
 
 # Set the basic configurations for the logger
@@ -49,10 +49,10 @@ class Database:
                     logger.debug("'effects' table is empty. Populating it...")
                     self.populate_effects(EffectsPage(alchemy_effects))
                     logger.debug("Since the effects weren't in store, the potions may not be as well. Populating it...")
-                    self.populate_ingredients()
+                    self.populate_ingredients(IngredientsPage(alchemy_ingredients))
                 cursor.execute("SELECT COUNT(*) FROM ingredients")
                 if cursor.fetchall()[0][0] == 0:
-                    self.populate_ingredients()
+                    self.populate_ingredients(IngredientsPage(alchemy_ingredients))
         except sqlite3.OperationalError:
             logger.critical("A sqlite3.OperationalError was raised.")
             raise
@@ -65,8 +65,11 @@ class Database:
         except sqlite3.OperationalError:
             logger.critical("A sqlite3.OperationalError was raised.")
 
-    def populate_ingredients(self) -> None:
-        pass
+    def populate_ingredients(self, ingredients_list: IngredientsPage) -> None:
+        with DatabaseConnect(self.host) as cursor:
+            for ingredient in ingredients_list.ingredients:
+                for i in range(0, 4):
+                    return
 
 
 
