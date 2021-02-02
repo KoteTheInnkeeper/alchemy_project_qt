@@ -1,7 +1,6 @@
 import re
 from bs4 import BeautifulSoup
 from locators.ingredients_locator import IngLocators
-from data.database_connection import DatabaseConnection as DatabaseConnect
 
 
 class IngredientParser:
