@@ -314,3 +314,55 @@
 2021-02-02 09:38:47,902 DEBUG    [database_management.py:48] Since the effects weren't in store, the potions may not be as well. Populating it...
 2021-02-02 09:38:47,906 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
 2021-02-02 09:38:49,049 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-02 13:43:44,220 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-02 13:43:45,291 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-02 13:43:45,302 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-02 13:43:45,493 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92542
+2021-02-02 13:43:45,574 DEBUG    [database_management.py:26] Initializing database.
+2021-02-02 13:43:45,574 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-02 13:43:45,575 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-02 13:43:45,576 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-02 13:43:45,577 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-02 13:43:47,164 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-02 13:44:10,698 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-02 13:44:11,745 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-02 13:44:11,766 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-02 13:44:11,917 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92542
+2021-02-02 13:44:11,995 DEBUG    [database_management.py:26] Initializing database.
+2021-02-02 13:44:11,996 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-02 13:44:11,996 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-02 13:44:11,996 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-02 13:44:11,997 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-02 13:44:13,041 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-02 13:44:29,708 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-02 13:44:30,791 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-02 13:44:30,815 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-02 13:44:30,994 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92542
+2021-02-02 13:44:31,074 DEBUG    [database_management.py:26] Initializing database.
+2021-02-02 13:44:31,074 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-02 13:44:31,075 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-02 13:44:31,075 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-02 13:44:31,076 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-02 13:44:31,664 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-02 13:45:42,644 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-02 13:45:43,684 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-02 13:45:43,697 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-02 13:45:43,881 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92542
+2021-02-02 13:45:43,962 DEBUG    [database_management.py:26] Initializing database.
+2021-02-02 13:45:43,963 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-02 13:45:43,963 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-02 13:45:43,963 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-02 13:45:43,964 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-02 13:45:45,799 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-02 13:45:46,240 DEBUG    [database_management.py:51] Since the effects weren't in store, the potions may not be as well. Populating it...
+2021-02-02 13:49:00,130 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-02 13:49:01,289 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-02 13:49:01,304 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-02 13:49:01,497 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92542
+2021-02-02 13:49:01,580 DEBUG    [database_management.py:26] Initializing database.
+2021-02-02 13:49:01,581 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-02 13:49:01,581 DEBUG    [database_management.py:35] File didn't exist. A new one was created.
+2021-02-02 13:49:01,581 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-02 13:49:01,595 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-02 13:49:02,841 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-02 13:49:03,270 DEBUG    [database_management.py:51] Since the effects weren't in store, the potions may not be as well. Populating it...

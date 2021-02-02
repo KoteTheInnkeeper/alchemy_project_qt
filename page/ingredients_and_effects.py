@@ -4,6 +4,11 @@ from parser.effects_parser import EffectParser
 
 
 class EffectsPage:
+    """
+        This type of object will have two properties: one assigned as initialization (a BeautifulSoup4 object) and
+        another one which holds a lsit of 'EffectParser' objects. This ones have a 'ef_name' property for each effect's
+        name.
+    """
     def __init__(self, page: bytes) -> None:
         self.soup = BeautifulSoup(page, 'html.parser')
 
@@ -19,3 +24,9 @@ class EffectsPage:
             if EffectParser(e).ef_name != ''
         ]
 
+
+class IngredientsPage:
+    """
+        Same thing as with the effects, but this is done to the ingredients.
+    """
+    pass
