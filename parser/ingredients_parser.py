@@ -1,7 +1,6 @@
 import re
 from bs4 import BeautifulSoup
 from locators.ingredients_locator import IngLocators
-from data.database_management import logger
 
 
 class IngredientParser:
@@ -15,16 +14,13 @@ class IngredientParser:
 
     @property
     def name(self):
-        logger.debug("Locating ingredient...")
         locator = IngLocators.COLUMN_ELEMENT_LOCATOR
         row_elements_tag = self.parent.select(locator)
         name = row_elements_tag[0].string.lower()
-        logger.debug(f"Ingredient <{name.title()}> located.")
         return name
 
     @property
     def effects(self):
-        logger.debug(f"Searching for <{self.name.title()}> effects...")
         locator = IngLocators.COLUMN_ELEMENT_LOCATOR
         row_elements_tag = self.parent.select(locator)
         # There's a row that has two 'a' tags in the 'name' column for the ingredient. In the page, this row is also

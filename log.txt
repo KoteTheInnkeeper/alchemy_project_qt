@@ -1283,3 +1283,1232 @@
 2021-02-03 08:25:40,106 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
 2021-02-03 08:25:40,107 DEBUG    [database_management.py:40] Creating tables if they don't exist.
 2021-02-03 08:25:40,108 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 15:09:45,373 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 15:09:46,388 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26552
+2021-02-03 15:09:46,401 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 15:09:46,602 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 15:09:46,687 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 15:09:46,688 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 15:09:46,688 DEBUG    [database_management.py:35] File didn't exist. A new one was created.
+2021-02-03 15:09:46,688 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 15:09:46,701 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 15:09:51,536 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-03 15:09:51,829 DEBUG    [database_management.py:70] Writing the list of effects to the 'effects' table in the database.
+2021-02-03 15:09:51,977 DEBUG    [database_management.py:74] Database successfully populated with effects.
+2021-02-03 15:09:51,977 DEBUG    [database_management.py:51] Since the effects weren't in store, the potions may not be as well. Populating it...
+2021-02-03 15:09:52,275 DEBUG    [database_management.py:87] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 15:10:11,798 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 15:10:12,969 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26552
+2021-02-03 15:10:12,984 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 15:10:13,168 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 15:10:13,252 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 15:10:13,252 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 15:10:13,252 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 15:10:13,253 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 15:10:13,253 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 15:10:16,216 DEBUG    [database_management.py:87] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 15:10:16,388 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,391 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,392 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,393 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,394 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,395 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,396 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,398 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,398 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,400 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,400 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,402 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,403 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,404 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,405 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,407 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,407 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,409 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,410 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,411 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,412 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,414 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,414 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,416 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,416 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,418 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,418 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,420 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,421 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,422 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,423 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,424 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,425 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,427 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,427 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,429 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,429 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,431 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,431 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,433 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,433 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,435 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,435 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,437 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,437 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,439 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,440 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,441 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,442 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,443 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,444 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,446 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,446 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,448 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,448 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,450 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,450 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,452 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,452 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,454 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,454 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,456 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,456 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,458 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,458 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,460 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,460 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,462 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,463 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,465 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,465 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,467 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,467 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,469 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,469 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,471 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,472 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,473 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,474 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,475 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,476 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,477 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,478 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,479 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,480 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,481 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,482 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,483 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,484 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,486 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,486 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,488 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,488 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,490 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,490 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,492 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,492 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,494 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,494 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,496 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,496 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,498 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,498 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,500 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,500 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,502 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,502 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,504 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,504 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,506 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,506 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,508 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,508 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,510 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,510 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,512 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,512 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,514 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,515 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,516 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,517 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,518 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,519 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,520 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,521 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,522 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,523 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,524 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,525 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,526 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,527 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,529 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,529 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,531 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,531 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,532 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,533 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,535 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,535 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,537 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,537 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,539 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,539 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,541 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,542 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,543 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,544 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,545 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,546 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,547 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,548 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,550 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,550 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,552 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,552 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,554 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,554 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,556 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,556 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,558 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,558 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,560 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,560 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,562 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,562 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,564 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,564 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,566 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,566 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,568 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,569 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,571 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,571 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,573 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,573 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,575 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,575 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,577 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,577 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,579 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,579 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,581 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,581 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,583 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,584 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,585 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,586 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,587 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,588 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,589 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,590 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,592 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,592 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,594 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,594 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,596 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,596 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,598 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,598 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,600 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,600 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,602 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,602 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,604 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,604 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,606 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,606 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,608 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,608 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,610 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,610 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,612 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,613 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,614 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,615 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,616 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,617 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,618 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,619 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,620 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,621 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:10:16,623 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:10:16,623 DEBUG    [database_management.py:99] Database successfully populated with ingredients.
+2021-02-03 15:10:16,628 DEBUG    [database_management.py:60] Database successfully initialized.
+2021-02-03 15:11:34,359 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 15:11:35,377 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26552
+2021-02-03 15:11:35,390 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 15:11:35,574 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 15:11:35,655 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 15:11:35,655 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 15:11:35,656 DEBUG    [database_management.py:35] File didn't exist. A new one was created.
+2021-02-03 15:11:35,656 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 15:11:35,670 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 15:11:38,270 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-03 15:11:38,574 DEBUG    [database_management.py:70] Writing the list of effects to the 'effects' table in the database.
+2021-02-03 15:11:38,727 DEBUG    [database_management.py:74] Database successfully populated with effects.
+2021-02-03 15:11:38,727 DEBUG    [database_management.py:51] Since the effects weren't in store, the potions may not be as well. Populating it...
+2021-02-03 15:11:39,020 DEBUG    [database_management.py:87] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 15:11:39,202 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,205 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,205 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,207 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,207 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,209 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,210 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,211 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,212 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,213 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,214 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,216 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,216 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,218 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,218 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,220 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,221 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,223 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,223 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,225 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,225 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,227 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,227 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,229 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,229 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,231 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,231 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,233 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,233 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,235 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,236 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,237 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,238 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,240 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,240 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,242 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,242 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,244 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,244 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,246 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,246 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,248 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,249 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,250 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,251 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,253 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,253 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,255 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,256 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,257 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,258 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,259 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,260 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,261 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,262 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,264 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,264 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,266 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,266 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,268 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,268 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,270 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,270 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,272 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,272 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,274 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,275 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,277 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,277 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,279 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,279 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,281 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,281 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,283 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,284 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,285 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,286 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,287 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,288 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,289 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,290 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,292 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,292 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,294 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,294 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,296 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,296 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,298 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,298 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,300 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,301 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,303 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,303 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,305 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,305 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,307 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,307 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,309 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,309 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,311 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,312 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,314 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,314 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,316 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,316 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,318 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,318 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,320 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,320 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,322 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,322 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,324 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,324 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,326 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,326 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,328 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,329 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,331 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,331 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,333 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,333 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,335 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,335 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,337 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,337 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,339 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,339 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,341 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,342 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,343 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,344 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,345 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,346 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,348 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,348 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,350 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,350 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,352 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,352 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,354 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,354 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,356 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,356 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,358 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,358 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,360 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,360 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,362 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,362 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,364 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,365 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,367 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,367 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,369 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,369 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,371 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,372 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,373 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,374 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,376 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,376 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,378 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,378 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,380 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,380 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,382 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,382 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,384 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,384 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,386 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,387 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,388 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,389 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,390 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,391 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,393 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,393 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,395 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,395 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,397 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,397 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,399 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,399 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,401 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,401 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,403 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,404 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,405 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,406 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,408 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,408 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,410 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,410 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,412 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,413 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,415 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,415 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,417 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,417 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,419 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,420 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,422 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,422 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,424 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,425 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,426 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,427 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,429 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,429 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,430 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,431 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,433 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,433 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,435 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,435 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,437 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,437 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,439 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,439 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,441 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,441 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:11:39,443 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:11:39,443 DEBUG    [database_management.py:99] Database successfully populated with ingredients.
+2021-02-03 15:11:39,449 DEBUG    [database_management.py:60] Database successfully initialized.
+2021-02-03 15:14:15,969 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 15:14:17,086 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26552
+2021-02-03 15:14:17,099 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 15:14:17,302 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 15:14:17,387 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 15:14:17,388 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 15:14:17,388 DEBUG    [database_management.py:35] File didn't exist. A new one was created.
+2021-02-03 15:14:17,388 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 15:14:17,402 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 15:14:18,069 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-03 15:14:18,360 DEBUG    [database_management.py:70] Writing the list of effects to the 'effects' table in the database.
+2021-02-03 15:14:18,511 DEBUG    [database_management.py:74] Database successfully populated with effects.
+2021-02-03 15:14:18,512 DEBUG    [database_management.py:51] Since the effects weren't in store, the potions may not be as well. Populating it...
+2021-02-03 15:14:18,803 DEBUG    [database_management.py:87] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 15:14:18,981 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:14:18,983 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:14:18,984 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:14:18,986 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:14:18,986 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:14:18,988 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:14:18,989 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:14:18,991 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:14:18,991 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:14:18,993 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:14:18,994 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:14:18,996 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:14:18,997 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:14:18,999 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:14:18,999 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:14:19,001 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:14:19,001 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:15:57,744 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 15:15:58,809 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26552
+2021-02-03 15:15:58,823 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 15:15:59,008 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 15:15:59,088 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 15:15:59,089 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 15:15:59,089 DEBUG    [database_management.py:35] File didn't exist. A new one was created.
+2021-02-03 15:15:59,089 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 15:15:59,102 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 15:16:00,680 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-03 15:16:00,967 DEBUG    [database_management.py:70] Writing the list of effects to the 'effects' table in the database.
+2021-02-03 15:16:01,111 DEBUG    [database_management.py:74] Database successfully populated with effects.
+2021-02-03 15:16:01,112 DEBUG    [database_management.py:51] Since the effects weren't in store, the potions may not be as well. Populating it...
+2021-02-03 15:16:01,410 DEBUG    [database_management.py:87] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 15:16:01,587 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,590 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,590 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,593 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,593 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,595 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,595 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,597 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,597 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,599 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,600 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,602 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,602 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,604 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,604 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,606 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,607 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,609 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,610 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,612 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,612 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,614 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,614 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,616 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,616 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,618 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,618 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,620 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,621 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,622 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,623 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,625 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,625 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,627 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,627 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,629 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,629 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,631 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,632 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,633 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,634 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,635 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,636 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,637 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,638 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,640 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,640 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,642 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,642 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,644 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,645 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,646 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,647 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,648 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,649 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,651 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,651 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,653 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,653 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,655 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,655 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,657 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,658 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,660 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,660 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,662 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,662 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,665 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,665 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,667 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,667 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,669 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,669 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,671 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,671 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,673 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,673 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,675 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,675 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,677 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,677 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,679 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,680 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,681 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,681 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,683 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,684 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,685 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,686 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,687 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,688 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,690 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,690 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,692 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,692 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,694 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,694 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,696 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,696 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,698 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,699 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,700 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,701 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,702 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,702 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,704 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,705 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,706 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,707 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,708 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,709 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,711 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,711 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,713 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,713 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,715 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,716 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,717 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,718 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,719 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,720 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,721 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,722 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,723 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,724 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,725 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,726 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,728 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,728 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,730 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,730 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,732 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,732 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,734 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,734 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,736 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,736 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,738 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,738 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,740 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,740 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,742 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,743 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,744 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,745 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,746 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,747 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,748 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,749 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,750 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,751 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,753 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,753 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,755 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,755 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,757 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,757 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,759 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,760 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,761 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,762 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,763 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,764 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,765 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,766 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,767 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,768 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,770 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,770 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,772 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,772 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,774 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,774 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,777 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,777 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,779 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,779 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,781 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,781 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,783 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,783 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,785 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,785 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,787 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,787 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,789 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,789 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,791 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,792 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,793 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,794 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,795 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,796 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,797 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,798 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,802 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,802 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,804 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,804 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,806 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,807 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,808 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,809 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,811 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,812 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,814 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,814 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,816 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,816 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,818 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,818 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,820 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,821 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,822 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,823 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,824 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,825 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,826 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,827 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,829 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,829 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:16:01,831 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:16:01,831 DEBUG    [database_management.py:99] Database successfully populated with ingredients.
+2021-02-03 15:16:01,837 DEBUG    [database_management.py:60] Database successfully initialized.
+2021-02-03 15:19:38,389 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 15:19:39,733 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26552
+2021-02-03 15:19:39,752 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 15:19:40,121 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 15:19:40,300 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 15:19:40,300 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 15:19:40,300 DEBUG    [database_management.py:35] File didn't exist. A new one was created.
+2021-02-03 15:19:40,301 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 15:19:40,313 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 15:19:42,176 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-03 15:19:42,459 DEBUG    [database_management.py:70] Writing the list of effects to the 'effects' table in the database.
+2021-02-03 15:19:42,601 DEBUG    [database_management.py:74] Database successfully populated with effects.
+2021-02-03 15:19:42,601 DEBUG    [database_management.py:51] Since the effects weren't in store, the potions may not be as well. Populating it...
+2021-02-03 15:19:42,894 DEBUG    [database_management.py:87] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 15:19:43,064 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,066 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,067 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,068 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,069 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,071 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,071 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,073 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,073 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,075 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,075 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,077 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,078 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,079 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,080 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,082 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,082 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,084 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,085 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,086 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,087 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,088 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,089 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,090 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,091 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,092 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,093 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,094 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,095 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,097 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,097 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,099 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,099 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,101 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,101 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,103 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,103 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,105 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,105 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,107 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,107 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,109 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,109 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,111 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,111 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,113 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,114 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,115 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,116 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,117 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,118 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,119 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,120 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,121 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,122 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,123 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,124 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,125 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,126 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,127 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,128 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,129 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,130 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,131 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,132 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,133 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,134 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,136 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,136 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,138 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,138 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,140 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,140 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,142 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,143 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,144 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,145 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,146 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,147 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,148 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,149 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,151 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,151 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,153 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,153 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,155 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,155 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,157 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,157 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,159 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,159 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,161 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,162 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,163 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,164 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,165 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,166 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,168 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,168 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,170 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,170 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,172 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,172 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,174 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,174 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,176 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,176 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,178 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,178 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,180 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,180 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,182 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,182 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,185 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,185 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,187 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,187 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,189 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,189 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,191 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,191 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,193 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,194 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,196 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,196 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,198 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,199 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,201 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,202 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,204 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,204 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,207 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,207 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,209 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,209 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,211 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,211 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,213 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,213 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,215 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,216 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,217 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,218 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,219 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,219 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,221 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,221 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,223 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,223 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,225 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,225 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,227 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,228 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,230 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,230 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,232 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,232 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,234 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,234 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,236 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,236 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,238 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,238 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,240 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,240 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,242 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,242 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,244 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,245 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,246 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,247 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,248 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,249 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,250 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,251 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,253 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,253 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,255 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,255 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,257 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,257 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,259 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,259 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,261 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,261 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,263 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,263 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,265 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,266 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,267 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,268 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,270 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,271 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,273 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,273 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,275 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,276 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,277 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,278 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,280 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,280 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,282 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,283 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,285 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,285 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,287 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,287 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,289 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,289 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,291 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,292 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,293 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,294 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,296 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,296 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,298 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,298 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,300 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,300 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,302 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:19:43,303 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:19:43,305 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:29,539 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 15:20:30,597 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26552
+2021-02-03 15:20:30,610 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 15:20:30,820 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 15:20:30,898 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 15:20:30,898 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 15:20:30,898 DEBUG    [database_management.py:35] File didn't exist. A new one was created.
+2021-02-03 15:20:30,899 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 15:20:30,914 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 15:20:44,791 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-03 15:20:45,078 DEBUG    [database_management.py:70] Writing the list of effects to the 'effects' table in the database.
+2021-02-03 15:20:45,228 DEBUG    [database_management.py:74] Database successfully populated with effects.
+2021-02-03 15:20:45,228 DEBUG    [database_management.py:51] Since the effects weren't in store, the potions may not be as well. Populating it...
+2021-02-03 15:20:45,524 DEBUG    [database_management.py:87] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 15:20:45,705 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,707 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,708 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,709 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,710 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,712 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,712 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,714 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,714 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,716 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,717 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,719 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,719 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,721 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,721 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,723 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,724 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,726 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,726 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,728 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,729 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,730 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,731 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,733 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,733 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,735 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,735 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,737 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,737 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,739 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,740 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,742 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,742 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,744 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,745 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,746 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,747 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,749 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,749 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,751 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,751 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,753 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,753 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,755 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,756 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,758 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,758 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,760 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,760 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,762 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,763 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,764 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,765 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,767 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,767 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,769 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,769 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,771 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,771 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,773 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,773 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,775 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,776 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,777 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,778 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,780 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,780 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,782 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,782 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,784 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,785 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,786 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,787 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,789 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,789 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,791 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,791 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,793 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,793 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,795 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,795 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,797 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,798 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,799 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,799 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,801 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,802 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,804 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,804 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,806 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,806 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,808 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,809 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,811 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,811 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,813 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,813 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,815 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,816 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,817 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,818 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,819 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,820 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,821 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,822 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,823 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,824 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,826 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,826 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,828 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,828 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,830 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,830 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,833 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,833 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,835 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,836 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,837 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,838 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,839 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,840 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,842 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,842 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,844 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,844 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,846 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,847 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,849 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,849 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,851 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,851 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,853 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,854 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,855 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,856 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,858 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,858 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,860 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,860 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,862 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,863 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,864 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,865 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,867 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,867 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,869 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,869 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,871 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,871 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,873 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,873 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,875 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,876 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,877 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,878 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,880 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,880 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,882 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,883 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,884 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,885 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,886 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,887 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,889 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,889 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,891 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,891 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,893 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,894 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,895 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,896 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,898 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,898 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,900 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,900 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,902 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,902 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,904 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,905 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,907 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,907 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,909 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,909 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,911 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,911 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,913 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,914 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,917 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,918 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,920 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,921 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,922 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,923 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,925 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,925 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,927 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,927 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,929 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,929 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,931 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,931 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,933 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,933 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,935 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,936 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,937 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,938 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,940 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,940 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,942 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,942 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,944 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,945 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,947 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,947 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,949 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,949 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,951 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,951 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,953 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,953 DEBUG    [database_management.py:92] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 15:20:45,955 DEBUG    [database_management.py:97] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 15:20:45,955 DEBUG    [database_management.py:99] Database successfully populated with ingredients.
+2021-02-03 15:20:45,960 DEBUG    [database_management.py:60] Database successfully initialized.
