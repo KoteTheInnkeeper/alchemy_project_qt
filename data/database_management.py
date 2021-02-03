@@ -52,24 +52,63 @@ class Database:
                     self.populate_ingredients(IngredientsPage(alchemy_ingredients))
                 cursor.execute("SELECT COUNT(*) FROM ingredients")
                 if cursor.fetchall()[0][0] == 0:
+                    input("The 'effects' are laoded, but the ingredients aren't. Press start to load them.\n")
                     self.populate_ingredients(IngredientsPage(alchemy_ingredients))
         except sqlite3.OperationalError:
             logger.critical("A sqlite3.OperationalError was raised.")
             raise
+        logger.debug("Database successfully initialized.")
+        print("Database successfully initialized!")
 
     def populate_effects(self, effects_list: EffectsPage) -> None:
+        """
+            Deals with populating the 'effects' table. For this, it uses the 'EffectPage' class, since that one manages
+            to get a 'row' from the wikitable in the url and call for a 'EffectParser', which deals with each row.
+        :return: None
+        """
         try:
+            logger.debug("Writing the list of effects to the 'effects' table in the database.")
             with DatabaseConnect(self.host) as cursor:
                 for effect in effects_list.effects:
                     cursor.execute("INSERT INTO effects VALUES(?)", (effect.ef_name,))
+            logger.debug("Database successfully populated with effects.")
         except sqlite3.OperationalError:
             logger.critical("A sqlite3.OperationalError was raised.")
 
     def populate_ingredients(self, ingredients_list: IngredientsPage) -> None:
+        """
+            Just as the one for the ingredients, this one deals with populating the 'ingredients' table. In this case,
+            this also means to check for the 'effects' table and save the ingredient's effects as their id's in this
+            effects table instead of just saving them as a string. I thought this would be a good thing to do and I also
+            wanted to see how to do such a thing.
+        :param ingredients_list:
+        :return: None
+        """
+        logger.debug("Writing ingredients to 'ingredients' table in the database.")
         with DatabaseConnect(self.host) as cursor:
             for ingredient in ingredients_list.ingredients:
+                name = ingredient.name
+                eff_no = []
+                logger.debug("Getting the 'id' for the effect from the 'effects' table.")
                 for i in range(0, 4):
-                    return
+                    cursor.execute("SELECT ROWID FROM effects WHERE effect_name=?", (ingredient.effects[i],))
+                    result = int(cursor.fetchone()[0])
+                    eff_no.append(result)
+                logger.debug("Saving the 'id' for each effect, instead of the entire name.")
+                cursor.execute("INSERT INTO ingredients VALUES(?, ?, ?, ?, ?)", (name, eff_no[0], eff_no[1], eff_no[2], eff_no[3]))
+            logger.debug("Database successfully populated with ingredients.")
+
+    def show_ingredients(self):
+        """
+            Shows the ingredients and their effects.
+        :return: None
+        """
+        pass
+
+
+
+
+
 
 
 

@@ -1,7 +1,6 @@
 import requests
 
 from data.database_management import Database
-from page.ingredients_and_effects import EffectsPage
 
 
 # Get the page content for the effects and ingredients

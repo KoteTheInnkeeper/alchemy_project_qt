@@ -38,7 +38,8 @@ class IngredientsPage:
     def ingredients(self) -> list:
         locator = IngLocators.ROW_LOCATOR
         row_tags = self.soup.select(locator)
+        row_tags.pop(0)
         return [
-            IngredientParser(e)
+            IngredientParser(str(e))
             for e in row_tags
         ]

@@ -366,3 +366,920 @@
 2021-02-02 13:49:01,595 DEBUG    [database_management.py:45] Seeing if they're empty.
 2021-02-02 13:49:02,841 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
 2021-02-02 13:49:03,270 DEBUG    [database_management.py:51] Since the effects weren't in store, the potions may not be as well. Populating it...
+2021-02-03 07:24:16,194 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:24:23,906 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:24:23,919 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:24:29,871 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:24:30,096 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:24:30,096 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:24:30,097 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:24:30,126 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:24:30,127 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:24:30,441 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:27:16,455 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:27:22,511 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:27:22,532 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:27:28,121 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:27:28,353 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:27:28,354 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:27:28,354 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:27:28,355 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:27:28,356 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:27:36,268 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:30:24,727 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:30:25,831 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:30:25,856 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:30:26,060 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:30:26,144 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:30:26,144 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:30:26,144 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:30:26,145 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:30:26,145 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:30:27,088 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:30:40,613 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:30:41,701 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:30:41,724 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:30:41,891 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:30:41,977 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:30:41,978 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:30:41,978 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:30:41,979 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:30:41,980 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:30:42,873 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:31:12,697 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:31:13,748 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:31:13,769 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:31:13,999 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:31:14,084 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:31:14,084 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:31:14,085 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:31:14,085 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:31:14,086 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:31:15,018 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:34:08,453 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:34:09,516 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:34:09,533 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:34:09,721 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:34:09,804 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:34:09,804 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:34:09,804 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:34:09,805 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:34:09,805 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:34:10,108 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:34:22,902 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:34:23,997 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:34:24,017 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:34:24,198 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:34:24,280 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:34:24,281 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:34:24,282 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:34:24,282 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:34:24,283 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:34:25,233 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:35:26,077 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:35:27,227 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:35:27,249 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:35:27,599 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:35:27,684 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:35:27,684 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:35:27,685 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:35:27,685 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:35:27,686 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:35:28,592 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:35:50,874 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:35:51,890 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:35:51,912 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:35:52,059 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:35:52,136 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:35:52,136 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:35:52,137 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:35:52,137 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:35:52,138 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:35:53,046 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:36:08,898 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:36:09,955 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:36:09,973 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:36:10,126 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:36:10,203 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:36:10,204 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:36:10,204 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:36:10,205 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:36:10,205 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:36:11,104 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:36:31,815 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:36:32,894 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:36:32,909 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:36:33,118 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:36:33,198 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:36:33,198 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:36:33,198 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:36:33,199 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:36:33,199 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:36:33,500 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:36:56,513 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:36:57,613 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:36:57,634 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:36:57,789 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:36:57,872 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:36:57,873 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:36:57,873 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:36:57,874 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:36:57,875 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:36:58,806 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:38:40,074 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:38:41,096 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:38:41,110 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:38:41,430 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:38:41,510 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:38:41,510 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:38:41,510 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:38:41,510 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:38:41,511 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:38:41,850 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:39:58,744 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:39:59,848 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:39:59,876 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:40:00,193 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:40:00,270 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:40:00,270 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:40:00,271 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:40:00,271 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:40:00,272 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:40:01,193 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:40:09,671 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:40:10,686 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:40:10,709 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:40:10,874 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:40:10,959 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:40:10,960 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:40:10,960 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:40:10,961 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:40:10,961 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:40:11,843 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:40:30,422 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:40:31,561 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:40:31,583 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:40:31,744 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:40:31,829 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:40:31,829 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:40:31,830 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:40:31,830 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:40:31,831 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:40:32,707 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:40:53,664 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:40:54,770 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:40:54,789 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:40:54,943 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:40:55,027 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:40:55,027 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:40:55,028 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:40:55,029 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:40:55,029 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:40:55,916 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:41:24,751 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:41:25,845 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:41:25,866 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:41:26,065 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:41:26,147 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:41:26,147 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:41:26,148 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:41:26,148 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:41:26,149 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:41:27,069 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:43:51,450 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:43:52,480 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:43:52,502 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:43:52,700 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:43:52,785 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:43:52,785 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:43:52,786 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:43:52,786 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:43:52,787 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:43:53,665 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:44:36,901 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:44:38,004 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:44:38,014 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:44:38,155 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:44:38,234 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:44:38,234 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:44:38,235 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:44:38,235 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:44:38,236 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:44:38,536 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:44:38,727 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:44:38,729 CRITICAL [database_management.py:57] A sqlite3.OperationalError was raised.
+2021-02-03 07:49:30,570 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:49:31,691 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:49:31,704 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:49:32,043 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:49:32,122 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:49:32,123 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:49:32,123 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:49:32,123 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:49:32,123 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:49:32,428 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:49:32,621 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:49:32,622 CRITICAL [database_management.py:57] A sqlite3.OperationalError was raised.
+2021-02-03 07:50:21,837 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:50:22,875 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:50:22,888 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:50:23,029 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:50:23,108 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:50:23,108 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:50:23,108 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:50:23,109 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:50:23,109 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:50:23,412 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:50:23,610 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:50:51,842 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:50:52,945 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:50:52,973 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:50:53,157 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:50:53,238 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:50:53,238 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:50:53,238 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:50:53,239 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:50:53,239 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:50:54,155 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:50:55,115 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:54:08,750 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:54:09,823 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:54:09,845 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:54:10,069 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:54:10,151 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:54:10,151 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:54:10,152 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:54:10,153 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:54:10,154 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:54:11,045 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:54:11,926 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:55:15,459 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:55:16,570 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:55:16,592 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:55:16,811 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:55:16,888 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:55:16,888 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:55:16,889 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:55:16,890 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:55:16,890 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:55:17,875 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:55:18,839 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:56:18,982 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:56:19,992 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:56:20,013 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:56:20,207 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:56:20,289 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:56:20,289 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:56:20,290 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:56:20,290 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:56:20,291 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:56:21,187 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:56:22,075 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:56:35,605 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:56:36,645 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:56:36,666 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:56:36,896 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:56:36,979 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:56:36,980 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:56:36,980 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:56:36,981 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:56:36,981 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:56:37,863 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:56:38,736 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:57:38,276 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 07:58:57,410 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:58:58,499 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:58:58,519 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:58:58,709 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:58:58,791 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:58:58,791 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:58:58,792 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:58:58,792 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:58:58,793 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:58:59,096 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:58:59,289 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:58:59,292 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 07:58:59,292 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:58:59,294 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 07:58:59,295 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:58:59,296 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 07:58:59,297 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:58:59,299 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 07:58:59,299 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:58:59,301 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 07:58:59,302 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:59:19,546 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 07:59:20,635 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 07:59:20,656 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 07:59:20,818 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 07:59:20,900 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 07:59:20,900 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 07:59:20,901 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 07:59:20,901 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 07:59:20,902 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 07:59:21,816 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 07:59:22,713 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 07:59:55,299 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 07:59:57,270 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:00:25,984 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:00:27,963 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:00:58,223 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 08:00:59,314 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 08:00:59,336 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 08:00:59,573 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 08:00:59,656 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 08:00:59,657 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 08:00:59,657 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 08:00:59,658 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 08:00:59,659 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 08:01:00,543 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 08:01:01,424 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:01:01,437 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:01:01,440 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:01:01,452 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:01:01,455 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:01:01,467 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:01:01,470 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:01:01,482 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:01:01,485 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:01:01,497 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:01:01,500 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:02:15,831 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 08:02:16,891 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 08:02:16,906 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 08:02:17,245 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 08:02:17,329 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 08:02:17,329 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 08:02:17,329 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 08:02:17,329 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 08:02:17,330 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 08:02:17,661 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 08:02:17,857 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:02:17,859 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:02:17,860 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:02:17,862 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:02:17,862 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:02:17,864 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:02:17,865 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:02:17,867 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:02:17,867 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:02:17,869 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:02:17,870 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:02:53,604 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 08:02:54,749 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 08:02:54,783 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 08:02:54,976 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 08:02:55,061 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 08:02:55,061 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 08:02:55,061 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 08:02:55,062 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 08:02:55,062 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 08:02:56,144 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 08:02:57,288 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:02:57,307 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:02:57,311 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:02:57,325 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:02:57,328 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:02:57,341 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:02:57,344 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:02:57,358 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:02:57,363 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:02:57,381 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:02:57,387 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:05:45,439 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 08:05:46,495 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 08:05:46,506 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 08:05:46,702 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 08:05:46,787 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 08:05:46,787 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 08:05:46,788 DEBUG    [database_management.py:35] File didn't exist. A new one was created.
+2021-02-03 08:05:46,788 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 08:05:46,985 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 08:05:49,084 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-03 08:05:49,413 DEBUG    [database_management.py:67] Writing the list of effects to the 'effects' table in the database.
+2021-02-03 08:05:49,660 DEBUG    [database_management.py:71] Database successfully populated with effects.
+2021-02-03 08:05:49,660 DEBUG    [database_management.py:51] Since the effects weren't in store, the potions may not be as well. Populating it...
+2021-02-03 08:05:49,982 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 08:05:50,170 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:05:50,172 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:05:50,172 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:05:50,174 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:05:50,175 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:05:50,177 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:05:50,177 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:05:50,179 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:05:50,179 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:05:50,181 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:05:50,182 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:05:50,184 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:05:50,184 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:05:50,186 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:05:50,186 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:05:50,188 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:05:50,189 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:06:20,353 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 08:06:21,470 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 08:06:21,491 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 08:06:21,716 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 08:06:21,799 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 08:06:21,800 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 08:06:21,800 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 08:06:21,801 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 08:06:21,801 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 08:06:22,692 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 08:06:23,601 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:06:23,614 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:06:23,617 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:06:23,630 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:06:23,632 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:06:23,645 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:06:23,648 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:06:23,661 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:06:23,664 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:06:23,677 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:06:23,681 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:06:23,695 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:06:23,698 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:06:23,711 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:06:23,714 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:06:23,727 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:06:23,731 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:50,858 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 08:20:52,055 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 08:20:52,070 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 08:20:52,437 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 08:20:52,521 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 08:20:52,521 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 08:20:52,521 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 08:20:52,521 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 08:20:52,521 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 08:20:52,855 DEBUG    [database_management.py:84] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 08:20:53,057 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,060 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,060 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,062 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,063 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,065 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,065 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,067 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,068 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,069 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,070 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,072 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,072 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,074 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,075 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,076 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,077 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,080 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,080 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,082 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,082 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,084 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,084 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,086 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,086 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,088 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,088 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,090 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,090 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,092 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,093 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,095 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,095 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,097 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,097 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,099 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,100 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,101 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,102 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,104 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,104 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,106 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,106 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,108 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,108 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,110 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,111 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,113 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,113 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,115 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,115 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,117 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,117 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,119 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,119 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,121 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,122 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,123 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,124 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,125 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,126 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,128 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,128 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,130 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,131 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,133 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,134 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,136 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,136 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,138 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,138 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,140 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,141 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,143 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,143 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,145 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,145 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,147 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,148 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,149 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,150 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,152 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,152 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,154 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,154 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,156 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,156 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,158 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,158 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,161 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,161 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,163 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,163 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,165 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,166 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,168 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,168 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,170 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,170 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,172 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,172 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,174 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,175 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,176 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,177 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,179 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,179 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,181 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,181 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,183 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,183 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,185 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,185 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,187 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,188 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,190 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,190 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,192 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,192 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,194 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,195 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,197 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,197 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,199 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,199 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,201 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,201 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,203 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,203 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,205 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,206 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,207 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,208 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,210 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,210 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,212 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,213 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,215 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,215 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,217 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,217 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,219 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,219 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,221 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,221 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,223 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,223 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,225 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,225 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,227 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,228 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,230 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,230 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,232 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,232 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,234 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,235 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,237 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,237 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,239 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,239 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,241 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,241 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,243 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,243 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,245 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,246 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,248 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,248 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,250 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,250 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,252 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,253 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,254 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,255 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,256 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,257 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,259 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,259 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,261 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,261 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,263 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,264 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,266 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,266 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,268 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,268 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,270 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,271 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,272 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,273 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,274 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,275 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,277 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,277 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,279 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,280 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,281 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,282 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,283 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,284 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,285 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,286 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,288 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,288 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,290 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,290 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,292 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,292 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,294 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,295 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,297 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,297 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,299 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,299 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,301 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,301 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,303 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,303 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,305 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,306 DEBUG    [database_management.py:89] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:20:53,308 DEBUG    [database_management.py:94] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:20:53,308 DEBUG    [database_management.py:96] Database successfully populated with ingredients.
+2021-02-03 08:23:58,524 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 08:23:59,572 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 08:23:59,583 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 08:23:59,941 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 08:24:00,028 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 08:24:00,028 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 08:24:00,029 DEBUG    [database_management.py:35] File didn't exist. A new one was created.
+2021-02-03 08:24:00,030 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 08:24:00,231 DEBUG    [database_management.py:45] Seeing if they're empty.
+2021-02-03 08:24:01,858 DEBUG    [database_management.py:49] 'effects' table is empty. Populating it...
+2021-02-03 08:24:02,204 DEBUG    [database_management.py:68] Writing the list of effects to the 'effects' table in the database.
+2021-02-03 08:24:02,441 DEBUG    [database_management.py:72] Database successfully populated with effects.
+2021-02-03 08:24:02,441 DEBUG    [database_management.py:51] Since the effects weren't in store, the potions may not be as well. Populating it...
+2021-02-03 08:24:02,775 DEBUG    [database_management.py:85] Writing ingredients to 'ingredients' table in the database.
+2021-02-03 08:24:02,980 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:02,982 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:02,983 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:02,984 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:02,985 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:02,987 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:02,987 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:02,989 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:02,990 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:02,991 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:02,992 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:02,994 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:02,994 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:02,996 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:02,997 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:02,999 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:02,999 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,002 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,002 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,004 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,004 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,006 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,006 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,008 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,009 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,011 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,011 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,013 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,013 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,015 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,015 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,017 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,018 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,020 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,020 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,022 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,022 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,024 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,025 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,026 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,027 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,029 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,029 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,031 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,031 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,033 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,034 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,035 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,036 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,037 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,038 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,040 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,040 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,042 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,043 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,044 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,045 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,047 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,047 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,049 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,049 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,051 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,051 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,053 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,053 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,056 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,057 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,059 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,059 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,061 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,061 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,063 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,064 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,066 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,066 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,068 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,068 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,070 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,070 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,072 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,073 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,075 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,075 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,077 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,077 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,079 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,079 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,081 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,082 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,084 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,084 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,086 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,087 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,089 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,090 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,092 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,092 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,094 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,094 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,096 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,096 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,098 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,099 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,100 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,101 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,102 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,103 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,105 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,105 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,108 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,109 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,111 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,112 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,114 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,114 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,116 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,116 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,118 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,119 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,120 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,121 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,123 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,123 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,125 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,125 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,127 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,128 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,130 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,130 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,132 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,132 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,134 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,134 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,136 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,137 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,139 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,139 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,141 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,141 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,143 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,143 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,145 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,146 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,147 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,148 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,150 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,150 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,152 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,152 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,154 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,154 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,157 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,158 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,159 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,160 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,162 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,162 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,164 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,165 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,166 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,167 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,168 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,169 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,171 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,171 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,174 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,174 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,176 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,176 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,178 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,179 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,181 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,181 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,183 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,184 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,187 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,188 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,191 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,192 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,194 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,195 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,196 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,197 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,199 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,199 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,201 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,201 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,203 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,204 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,206 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,206 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,208 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,208 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,211 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,211 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,213 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,213 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,215 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,215 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,217 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,217 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,219 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,220 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,222 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,222 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,224 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,224 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,226 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,227 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,228 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,229 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,231 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,231 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,233 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,234 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,235 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,236 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,237 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,238 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,240 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,240 DEBUG    [database_management.py:90] Getting the 'id' for the effect from the 'effects' table.
+2021-02-03 08:24:03,242 DEBUG    [database_management.py:95] Saving the 'id' for each effect, instead of the entire name.
+2021-02-03 08:24:03,242 DEBUG    [database_management.py:97] Database successfully populated with ingredients.
+2021-02-03 08:25:38,775 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): en.uesp.net:443
+2021-02-03 08:25:39,805 DEBUG    [connectionpool.py:452] https://en.uesp.net:443 "GET /wiki/Skyrim:Alchemy_Effects HTTP/1.1" 200 26874
+2021-02-03 08:25:39,820 DEBUG    [connectionpool.py:971] Starting new HTTPS connection (1): elderscrolls.fandom.com:443
+2021-02-03 08:25:40,020 DEBUG    [connectionpool.py:452] https://elderscrolls.fandom.com:443 "GET /wiki/Ingredients_(Skyrim) HTTP/1.1" 200 92563
+2021-02-03 08:25:40,105 DEBUG    [database_management.py:26] Initializing database.
+2021-02-03 08:25:40,106 DEBUG    [database_management.py:28] Checking if the .db file exists.
+2021-02-03 08:25:40,106 DEBUG    [database_management.py:32] File exists. Checking for the table's content.
+2021-02-03 08:25:40,107 DEBUG    [database_management.py:40] Creating tables if they don't exist.
+2021-02-03 08:25:40,108 DEBUG    [database_management.py:45] Seeing if they're empty.
