@@ -3,17 +3,19 @@
     info we want.
 """
 import logging
+import string
 
 from data.database_connection import DatabaseConnection as DatabaseConnect
 from data.database_connection import sqlite3
 from page.ingredients_and_effects import EffectsPage, IngredientsPage
 
 
+
 # Set the basic configurations for the logger
 logging.basicConfig(format="%(asctime)s %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s", level=logging.DEBUG,
                     filename='log.txt')
 # Create the logger
-logger = logging.getLogger("'Alchemy project' logger.")
+logger = logging.getLogger("/alchemy_project")
 
 
 class Database:
@@ -104,6 +106,37 @@ class Database:
         :return: None
         """
         pass
+
+    def show_effects(self, name: str):
+        with DatabaseConnect(self.host) as cursor:
+            logger.debug("Searching for matches in ingredient's name.")
+            cursor.execute("SELECT ef1, ef2, ef3, ef4 FROM ingredients WHERE ingredient_name=?", (name, ))
+            results = cursor.fetchone()
+            if results:
+                print(f"Possible effects from {string.capwords(name)} are shown below:")
+                for i, effect_no in enumerate(results, start=1):
+                    logger.debug(f"Searching the effect's name indexed as ¨effect_no={effect_no}¨.")
+                    cursor.execute("SELECT effect_name FROM effects WHERE ROWID=?", (int(effect_no),))
+                    result = cursor.fetchone()
+                    if not any(result):
+                        logger.critical("There was no match? Seek into the table.")
+                    print(f"{i}) {result[0].title()}")
+            else:
+                logger.debug(f"We didn't find any match for the given name ¨{name}¨.")
+                print(f"There was no match for the name you provided ({name.title()}). Check your typing.")
+
+    def get_effects_set(self, name: str) -> set:
+        with DatabaseConnect(self.host) as cursor:
+            logger.debug(f"Searching if ¨{name}¨ has a match in 'ingredient_name' within the 'ingredients' table.")
+            cursor.execute("SELECT ef1, ef2, ef3, ef4 FROM ingredients WHERE ingredient_name=?", (name, ))
+            results = cursor.fetchone()
+            if results:
+                return {int(effect_no) for effect_no in results}
+            else:
+                return set()
+
+
+
 
 
 

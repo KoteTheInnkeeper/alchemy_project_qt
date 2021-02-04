@@ -1,6 +1,6 @@
 import requests
 
-from data.database_management import Database
+from data.database_management import Database, logger
 
 
 # Get the page content for the effects and ingredients
