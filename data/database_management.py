@@ -135,6 +135,38 @@ class Database:
             else:
                 return set()
 
+    def list_effects(self):
+        with DatabaseConnect(self.host) as cursor:
+            logger.debug("Showing a list of effects.")
+            cursor.execute("SELECT effect_name FROM effects")
+            result = cursor.fetchall()
+            for i, (effect,) in enumerate(result, start=1):
+                print(f"{i}) {effect.title()}")
+
+    def get_ingredients_for_effect(self, effect_no):
+        if not isinstance(effect_no, int):
+            logger.debug("The effect was given as a string. Finding it's ID...")
+            with DatabaseConnect(self.host) as cursor:
+                cursor.execute("SELECT ROWID FROM effects WHERE effect_name=?", (effect_no, ))
+                result = cursor.fetchone()
+                if not result:
+                    print(f"There was no match for '{effect_no}'. Check if you spelled it correctly.")
+                    return
+                else:
+                    effect_name = effect_no
+                    effect_no = int(result[0])
+        logger.debug(f"The effect's ID is {effect_no}. We shall now check for ingredients with this effect.")
+        with DatabaseConnect(self.host) as cursor:
+            cursor.execute("SELECT ingredient_name FROM ingredients WHERE ef1=? OR ef2=? OR ef3=? OR ef4=?", (effect_no, effect_no, effect_no, effect_no))
+            result = cursor.fetchall()
+            if result:
+                for i, (ingredient_name, ) in enumerate(result, start=1):
+                    print(f"{i}) {string.capwords(ingredient_name)}.")
+            else:
+                print("There was no match for such index. Maybe you guessed it out of range?")
+
+
+
 
 
 

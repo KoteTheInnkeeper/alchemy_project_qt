@@ -9,6 +9,7 @@ WELCOME_STRING = """Welcome to this alchemy_project program for Skyrim."""
 COMMANDS_STRING = """The following commands are valid:
 
 'i' - to enter a name and know it's effects.
+'r' - to get a recipe for a specific effect.
 'q' - to quit the program."""
 
 # Set the logger
@@ -30,12 +31,27 @@ class Operations:
     def show_help(cls):
         print(COMMANDS_STRING)
 
+    @classmethod
+    def get_ingredients(cls):
+        print("The effects available are shown below:")
+        data.list_effects()
+        print("Now, you can tell me which potion you want to brew by matching it's effect's name or by index according"
+              " to the list above.")
+        user_input = input("Your choice: ").strip().lower()
+        try:
+            user_input = int(user_input)
+            data.get_ingredients_for_effect(user_input)
+        except ValueError:
+            logger.debug(f"Searching for ingredients to achieve the ¨{user_input}¨ effect. ")
+            data.get_ingredients_for_effect(user_input)
+
 
 def main_menu():
     logger.debug("Running the main menu")
     OPERATIONS = {
         'i': Operations.get_effects,
         'q': Operations.exit_program,
+        'r': Operations.get_ingredients,
         'h': Operations.show_help
     }
     user_input = input("\nEnter a command: ").strip().lower()
