@@ -1,8 +1,8 @@
 from bs4 import BeautifulSoup
 from locators.effects_locator import EffPageLoc
 from locators.ingredients_locator import IngLocators
-from parser.effects_parser import EffectParser
-from parser.ingredients_parser import IngredientParser
+from parser_to.effects_parser import EffectParser
+from parser_to.ingredients_parser import IngredientParser
 
 
 class EffectsPage:

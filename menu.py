@@ -3,6 +3,7 @@
 """
 import logging
 
+import time
 from app import data
 
 WELCOME_STRING = """Welcome to this alchemy_project program for Skyrim."""
@@ -25,7 +26,8 @@ class Operations:
     @classmethod
     def exit_program(cls):
         print("Thanks for using this program!")
-        exit()
+        time.sleep(2)
+
 
     @classmethod
     def show_help(cls):
@@ -62,10 +64,11 @@ def main_menu():
     except KeyError:
         logger.warning("The user entered an invalid input.")
         print("That's not a valid input. Try again. If you need help, enter the 'h' command to see the valid commands.")
+    return user_input
 
 
 print(WELCOME_STRING)
 print(COMMANDS_STRING)
 _ = True
-while _:
-    main_menu()
+while _ != 'q':
+    _ = main_menu()
