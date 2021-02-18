@@ -2,3 +2,4 @@
 /venv/
 /data/data.db
 /log.txt
+*.pyc
