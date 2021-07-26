@@ -1,5 +1,10 @@
 # Project exclude paths
 /venv/
-/data/data.db
-/log.txt
+/qtui
+/.idea
+
+# Files relevant only to a runtime
+*.db
+*.log
 *.pyc
+
