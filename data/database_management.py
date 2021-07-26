@@ -9,7 +9,7 @@ from data.database_connection import DatabaseConnection as DatabaseConnect
 from data.database_connection import sqlite3
 from page.ingredients_and_effects import EffectsPage, IngredientsPage
 
-log = logging.getlog("alchemy_project_qt.database_management")
+log = logging.getLogger("alchemy_project_qt.database_management")
 
 class Database:
     def __init__(self, host: str, alchemy_effects: bytes, alchemy_ingredients: bytes):

@@ -1,6 +1,5 @@
 # Project exclude paths
 /venv/
-/qtui
 /.idea
 
 # Files relevant only to a runtime
