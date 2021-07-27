@@ -12,7 +12,7 @@ from page.ingredients_and_effects import EffectsPage, IngredientsPage
 log = logging.getLogger("alchemy_project_qt.database_management")
 
 class Database:
-    def __init__(self, host: str, alchemy_effects: bytes, alchemy_ingredients: bytes):
+    def __init__(self, host: str, alchemy_effects: bytes, alchemy_ingredients: bytes, counter: int):
         """
             Initializes the entire database. This goes from checking if the file actually exists (and creating a new
             one if it doesn't) to populate the tables if they were empty.
@@ -22,12 +22,10 @@ class Database:
         self.host = host
         log.debug("Checking if the .db file exists.")
         # Check if the file exists at all.
-        try:
-            with open(self.host, 'r'):
-                log.debug("File exists. Checking for the table's content.")
-        except FileNotFoundError:
+        if not self.check_if_exists():
+            log.debug("Creating a database file.")
             with open(self.host, 'w'):
-                log.debug("File didn't exist. A new one was created.")
+                log.debug("File created.")
 
         # Checking for the table's content.
         try:
@@ -40,7 +38,6 @@ class Database:
                 log.debug("Seeing if they're empty.")
                 cursor.execute("SELECT COUNT(*) FROM effects")
                 if cursor.fetchall()[0][0] == 0:
-                    input("It appears that the info wasn't downloaded. Press enter to download the potions info.\n")
                     log.debug("'effects' table is empty. Populating it...")
                     self.populate_effects(EffectsPage(alchemy_effects))
                     log.debug("Since the effects weren't in store, the potions may not be as well. Populating it...")
@@ -53,7 +50,17 @@ class Database:
             log.critical("A sqlite3.OperationalError was raised.")
             raise
         log.debug("Database successfully initialized.")
-        print("Database successfully initialized!")
+
+    def check_if_exists(self) -> bool:
+        """Checks if the database file exists at all.
+        :return: True if it does."""
+        try:
+            with open(self.host, 'r'):
+                log.debug("File exists.")
+                return True
+        except FileNotFoundError:
+            log.debug("File doesn't exists.")
+            return False
 
     def populate_effects(self, effects_list: EffectsPage) -> None:
         """
