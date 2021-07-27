@@ -18,38 +18,20 @@ class Database:
             one if it doesn't) to populate the tables if they were empty.
         :return: None
         """
-        log.debug("Initializing database.")
+        log.debug("Creating Database object.")
         self.host = host
-        log.debug("Checking if the .db file exists.")
-        # Check if the file exists at all.
-        if not self.check_if_exists():
-            log.debug("Creating a database file.")
-            with open(self.host, 'w'):
-                log.debug("File created.")
 
-        # Checking for the table's content.
-        try:
-            with DatabaseConnect(self.host) as cursor:
-                log.debug("Creating tables if they don't exist.")
+        log.debug("Creating tables if they don't exist.")
+        with DatabaseConnect(self.host) as cursor:
                 cursor.execute("CREATE TABLE IF NOT EXISTS effects(effect_name TEXT UNIQUE)")
                 cursor.execute("CREATE TABLE IF NOT EXISTS ingredients(ingredient_name NAME UNIQUE, ef1 INTEGER, "
                                "ef2 INTEGER, ef3 INTEGER, ef4 INTEGER)")
 
-                log.debug("Seeing if they're empty.")
-                cursor.execute("SELECT COUNT(*) FROM effects")
-                if cursor.fetchall()[0][0] == 0:
-                    log.debug("'effects' table is empty. Populating it...")
-                    self.populate_effects(EffectsPage(alchemy_effects))
-                    log.debug("Since the effects weren't in store, the potions may not be as well. Populating it...")
-                    self.populate_ingredients(IngredientsPage(alchemy_ingredients))
-                cursor.execute("SELECT COUNT(*) FROM ingredients")
-                if cursor.fetchall()[0][0] == 0:
-                    input("The 'effects' are laoded, but the ingredients aren't. Press start to load them.\n")
-                    self.populate_ingredients(IngredientsPage(alchemy_ingredients))
-        except sqlite3.OperationalError:
-            log.critical("A sqlite3.OperationalError was raised.")
-            raise
-        log.debug("Database successfully initialized.")
+    
+    def setup_file(self) -> None:
+        """Creates the file in case it doesn't exist."""
+        with open(self.host, 'w'):
+            log.debug("File created.")
 
     def check_if_exists(self) -> bool:
         """Checks if the database file exists at all.
@@ -61,6 +43,37 @@ class Database:
         except FileNotFoundError:
             log.debug("File doesn't exists.")
             return False
+
+    def clearing_tables(self):
+        """Clears the tables within the database."""
+        with DatabaseConnect(self.host) as cursor:
+                log.debug("Clearing the possible data stored in the tables.")
+                cursor.execute("DELETE FROM effects")
+                cursor.execute("DELETE from ingredients")
+
+    def tables_setup(self, alchemy_effects: bytes, alchemy_ingredients: bytes) -> None:
+        try:
+            with DatabaseConnect(self.host) as cursor:
+                log.debug("Populating the tables.")
+                self.populate_effects(EffectsPage(alchemy_effects))
+                self.populate_ingredients(IngredientsPage(alchemy_ingredients))
+                
+        except sqlite3.OperationalError:
+            log.critical("A sqlite3.OperationalError was raised.")
+            raise
+        else:
+            log.debug("Database successfully initialized.")
+
+    def check_tables(self):
+        with DatabaseConnect(self.host) as cursor:
+            cursor.execute("SELECT COUNT(*) FROM effects")
+            effects_count = cursor.fetchall()[0][0]
+            cursor.execute("SELECT COUNT(*) FROM ingredients")
+            ingredients_count = cursor.fetchall()[0][0]
+            if effects_count == 0 or ingredients_count == 0:
+                return False
+            else:
+                return True
 
     def populate_effects(self, effects_list: EffectsPage) -> None:
         """
