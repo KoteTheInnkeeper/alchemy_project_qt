@@ -98,6 +98,7 @@ class SplashScreen(QMainWindow):
         if db.check_if_exists() and counter <= 10:
             log.debug("The database file exist but the counter stills being under 11. Updating it to 11.")
             counter = 11
+            self.ui.progress_bar.setValue(counter)
             QApplication.processEvents()
 
         #Progressbar while the database is being populated or checked if populated.
@@ -108,6 +109,7 @@ class SplashScreen(QMainWindow):
             if db.check_tables():
                 log.debug("The tables are ok and populated. Updating the counter to exit this conditional up to 81.")
                 counter = 81
+                self.ui.progress_bar.setValue(counter)
                 self.ui.status_label.setText("Database ready. Loading GUI.")
                 QApplication.processEvents()
             else:
@@ -124,13 +126,8 @@ class SplashScreen(QMainWindow):
                 self.ui.status_label.setText("Updating the database.")
                 QApplication.processEvents()
                 self.show()
-                db.tables_setup(alchemy_effects, alchemy_ingredients)
+                db.tables_setup(alchemy_effects, alchemy_ingredients)  
         
-        
-
-
-
-
 
 if __name__ == "__main__":
     # Set the database
