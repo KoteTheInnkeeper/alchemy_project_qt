@@ -7,3 +7,9 @@
 *.log
 *.pyc
 
+
+# Ignore the pyinstaller used files
+/build
+/dist
+*.spec
+*.exe
