@@ -15,12 +15,12 @@ import sys
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
-from PyQt5.QtWidgets import QApplication, QMainWindow
 
 from data.database_management import Database
 
+# GUI FILE
 from qtui.ui_splash_screen import Ui_SplashScreen
-from qtui.ui_main_window import Ui_MainWindow
+from qtui.ui_functions import *
 
 # Globals (for progress bar)
 counter = 0
@@ -36,11 +36,7 @@ db = Database('data/data.db', alchemy_effects_content, alchemy_ingredients_conte
 
 # Main window class
 
-class MainWindow(QMainWindow):
-    def __init__(self):
-        QMainWindow.__init__(self)
-        self.ui = Ui_MainWindow()
-        self.ui.setupUi(self)
+
 
 # Splash screen class
 
@@ -71,7 +67,6 @@ class SplashScreen(QMainWindow):
 
         # SHOW => Main window
         self.show()
-
 
      # App functions
     def progress(self):
